@@ -1,0 +1,13 @@
+cabal-version:       >=1.10
+
+-- This is a simple cabal file for the task manager demo
+name:                event-modeling-codex
+version:             0.1.0.0
+build-type:          Simple
+
+executable event-modeling-codex
+  main-is:             Main.hs
+  hs-source-dirs:      src
+  build-depends:       base >=4.12 && <5
+  default-language:    Haskell2010
+
