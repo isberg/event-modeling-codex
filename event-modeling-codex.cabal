@@ -11,3 +11,12 @@ executable event-modeling-codex
   build-depends:       base >=4.12 && <5
   default-language:    Haskell2010
 
+
+test-suite spec
+  type:                exitcode-stdio-1.0
+  hs-source-dirs:      src test
+  main-is:             Spec.hs
+  build-depends:       base >=4.12 && <5,
+                       QuickCheck,
+                       hspec
+  default-language:    Haskell2010
